@@ -1,7 +1,7 @@
 /* Site + generator configuration. Everything an editor would tweak lives here. */
 
 export const SITE = {
-  domain: 'https://ai-news.tech',
+  domain: 'https://ainewz.tech',
   name: 'AI News.tech',
   tagline: 'Independent, text-first coverage of the AI era',
   updated: '2026-10-16'

@@ -78,7 +78,7 @@ security contact; `sitemap.xml` and `robots.txt` are minimal and static.
 ## Limits and follow-ups
 
 - Domain placeholder: canonical URLs, `sitemap.xml`, `robots.txt` and
-  `security.txt` assume `https://ai-news.tech`. If your domain differs,
+  `security.txt` assume `https://ainewz.tech`. If your domain differs,
   find-and-replace it before launch.
 - The optional `ai-news-tech-preview/standalone.html` preview snapshot (kept
   outside the deploy folder) embeds its CSS/JS and cannot run under the strict

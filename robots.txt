@@ -5,4 +5,4 @@ Disallow: /tools/
 Disallow: /content/
 Disallow: /.github/
 
-Sitemap: https://ai-news.tech/sitemap.xml
+Sitemap: https://ainewz.tech/sitemap.xml

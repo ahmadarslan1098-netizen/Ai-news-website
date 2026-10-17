@@ -1,5 +1,5 @@
-Contact: mailto:security@ai-news.tech
+Contact: mailto:security@ainewz.tech
 Expires: 2027-10-16T00:00:00.000Z
-Canonical: https://ai-news.tech/.well-known/security.txt
+Canonical: https://ainewz.tech/.well-known/security.txt
 Preferred-Languages: en
-Policy: https://ai-news.tech/about.html
+Policy: https://ainewz.tech/about.html

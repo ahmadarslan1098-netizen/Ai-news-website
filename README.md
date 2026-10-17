@@ -73,7 +73,7 @@ point the host at the root and it will serve the source files too (crawling of
   the CSP/HSTS set will not apply. Prefer the three above.
 
 **Domain:** canonical URLs, `sitemap.xml`, `robots.txt`, `security.txt` and
-`tools/config.mjs` (`SITE.domain`) assume `https://ai-news.tech`. If yours
+`tools/config.mjs` (`SITE.domain`) assume `https://ainewz.tech`. If yours
 differs, replace it in those places.
 
 ## Automate the daily news

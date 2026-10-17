@@ -64,7 +64,7 @@ check('sitemap.xml present',fs.existsSync(sm));
 if(fs.existsSync(sm)){
   const urls=(fs.readFileSync(sm,'utf8').match(/<loc>([^<]+)<\/loc>/g)||[]).map(x=>x.replace(/<\/?loc>/g,''));
   const missing=urls.filter(u=>{
-    const p=u.replace('https://ai-news.tech','').replace(/^\//,'');
+    const p=u.replace('https://ainewz.tech','').replace(/^\//,'');
     return !fs.existsSync(path.join(R,p||'index.html'));
   });
   check('Every sitemap URL resolves to a real file ('+urls.length+' urls)',missing.length===0,missing.join(', '));

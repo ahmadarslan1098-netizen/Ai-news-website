@@ -78,8 +78,8 @@ export function pageFoot(depth) {
       <div>
         <h2>Contact</h2>
         <ul>
-          <li><a href="mailto:tips@ai-news.tech">tips@ai-news.tech</a></li>
-          <li><a href="mailto:corrections@ai-news.tech">corrections@ai-news.tech</a></li>
+          <li><a href="mailto:tips@ainewz.tech">tips@ainewz.tech</a></li>
+          <li><a href="mailto:corrections@ainewz.tech">corrections@ainewz.tech</a></li>
         </ul>
       </div>
     </div>

@@ -59,7 +59,7 @@ export async function fetchFeed(feed, timeoutMs = 15000) {
     const res = await fetch(feed.url, {
       signal: ctrl.signal,
       redirect: 'follow',
-      headers: { 'user-agent': 'ai-news-tech-generator/1.0 (+https://ai-news.tech)' }
+      headers: { 'user-agent': 'ai-news-tech-generator/1.0 (+https://ainewz.tech)' }
     });
     if (!res.ok) throw new Error('HTTP ' + res.status);
     return parseFeed(await res.text()).map(it => ({ ...it, source: feed.name }));
