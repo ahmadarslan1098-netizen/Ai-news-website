@@ -1,5 +1,5 @@
 {
-  "lastRun": "2026-10-17T10:20:40.058Z",
+  "lastRun": "2026-10-17T16:20:45.883Z",
   "seen": [
     "https://about.fb.com/news/2026/10/introducing-muse-wonder-models/",
     "https://aireleasetracker.com/",
@@ -84,6 +84,10 @@
     "openai.com/index/sentinelone",
     "openai.com/index/amp-beyond-coding",
     "arstechnica.com/security/2026/10/anthropic-warns-small-ai-models-could-self-replicate-through-iot-devices",
-    "arstechnica.com/security/2026/10/fridge-hack-costing-millions-and-sparking-fires-stemmed-from-poor-security"
+    "arstechnica.com/security/2026/10/fridge-hack-costing-millions-and-sparking-fires-stemmed-from-poor-security",
+    "the-decoder.com/deepseek-v4-1-flash-1017-beats-larger-rivals-in-agentic-tasks-while-once-again-massively-cutting-per-task-costs",
+    "the-decoder.com/anthropics-claude-cracks-a-25-year-old-nsa-cryptography-mystery-in-under-30-minutes",
+    "the-decoder.com/an-openai-model-hacked-a-government-site-grabbed-24-years-of-hospital-data-and-kept-it-quiet",
+    "theverge.com/ai-artificial-intelligence/1013195/ai-agents-blocked-web"
   ]
 }

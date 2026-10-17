@@ -2,10 +2,16 @@
   "updated": "2026-10-17",
   "items": [
     {
+      "date": "2026-10-17",
+      "text": "Web publishers are increasingly restricting access to automated browsing agents operated by OpenAI, Meta, Google, and Instinct.",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1013195/ai-agents-blocked-web",
+      "live": true
+    },
+    {
       "date": "2026-10-16",
       "text": "OpenAI updated its Chrome extension to allow ChatGPT to view open browser tabs and execute multi-tab automation workflows.",
       "url": "https://the-decoder.com/chatgpt-becomes-a-full-chrome-browser-assistant-that-reads-and-acts-on-your-open-tabs/",
-      "live": true
+      "live": false
     },
     {
       "date": "2026-10-16",
