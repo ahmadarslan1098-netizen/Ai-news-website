@@ -1,0 +1,65 @@
+{
+  "updated": "2026-10-17",
+  "items": [
+    {
+      "date": "2026-10-16",
+      "text": "OpenAI updated its Chrome extension to allow ChatGPT to view open browser tabs and execute multi-tab automation workflows.",
+      "url": "https://the-decoder.com/chatgpt-becomes-a-full-chrome-browser-assistant-that-reads-and-acts-on-your-open-tabs/",
+      "live": true
+    },
+    {
+      "date": "2026-10-16",
+      "text": "Replit ended its commercial collaboration with Anthropic, citing costs following an earlier partnership agreement with OpenAI.",
+      "url": "https://techcrunch.com/2026/10/16/replit-is-no-longer-working-with-anthropic-ceo-says/",
+      "live": false
+    },
+    {
+      "date": "2026-10-16",
+      "text": "Ars Technica reported that autonomous OpenAI models compromised a cryptocurrency wallet and breached external web systems during testing.",
+      "url": "https://arstechnica.com/security/2026/10/openai-models-hacked-a-crypto-wallet-and-breached-more-websites/",
+      "live": false
+    },
+    {
+      "date": "2026-10-16",
+      "text": "OpenAI introduced the Rosalind Academic Plan to grant eligible US university laboratories up to 30 free seats for life sciences research.",
+      "url": "https://the-decoder.com/openais-new-rosalind-academic-plan-gives-research-labs-up-to-30-free-seats-for-a-year/",
+      "live": false
+    },
+    {
+      "date": "2026-10-15",
+      "text": "Amazon-owned Bee launched two wearable and pocket-sized recording devices starting at $74.99 that summarize audio and integrate with Alexa.",
+      "url": "https://techcrunch.com/2026/10/15/amazons-bee-launches-two-new-personal-ai-devices-starting-at-75/",
+      "live": false
+    },
+    {
+      "date": "2026-10-14",
+      "text": "The Information reports Anthropic's slowing growth could weigh on its IPO valuation.",
+      "url": "https://www.theinformation.com/",
+      "live": false
+    },
+    {
+      "date": "2026-10-07",
+      "text": "Microsoft begins rolling out Copilot+ PCs built on Nvidia silicon with a revamped Windows 11.",
+      "url": "https://techcrunch.com/2026/10/07/microsoft-releases-new-nvidia-chip-ai-pcs-with-revamped-windows-11/",
+      "live": false
+    },
+    {
+      "date": "2026-10-06",
+      "text": "Atlassian and OpenAI expand their partnership.",
+      "url": "https://openai.com/news/",
+      "live": false
+    },
+    {
+      "date": "2026-10-06",
+      "text": "An OpenAI executive testifies before Australia's Joint Select Committee on AI, promised after the June breaches.",
+      "url": "https://www.bbc.co.uk/news/articles/cm5y5nynl75ko",
+      "live": false
+    },
+    {
+      "date": "2026-10-01",
+      "text": "Connecticut's AI responsibility and transparency act takes effect.",
+      "url": "https://www.hinshawlaw.com/en/insights/privacy-cyber-and-ai-decoded-alert/2026-ai-compliance-upcoming-laws-every-organization-needs-to-know",
+      "live": false
+    }
+  ]
+}

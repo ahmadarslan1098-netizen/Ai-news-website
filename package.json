@@ -1,0 +1,16 @@
+{
+  "name": "ai-news-tech",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "AI News.tech - a text-first AI news publication. Static site plus a zero-dependency daily generator.",
+  "scripts": {
+    "seed": "node tools/seed.mjs",
+    "generate": "node tools/generate.mjs",
+    "render": "node tools/render.mjs",
+    "check": "node security-check.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

@@ -1,0 +1,268 @@
+<!doctype html>
+<html lang="en" data-theme="light">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light dark">
+<title>The Model Desk | AI News.tech</title>
+<meta name="description" content="Current frontier and open-weight AI models side by side: pricing, context windows, licenses and release dates, with sources.">
+<meta property="og:title" content="The Model Desk | AI News.tech">
+<meta property="og:description" content="Current frontier and open-weight AI models side by side: pricing, context windows, licenses and release dates, with sources.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://ai-news.tech/models.html">
+<link rel="canonical" href="https://ai-news.tech/models.html">
+<meta name="theme-color" content="#fafaf7">
+<link rel="icon" href="assets/favicon.svg">
+<link rel="stylesheet" href="assets/fonts.css">
+  <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body data-page="models">
+<a class="skip" href="#main">Skip to content</a>
+<header class="masthead">
+  <div class="topstrip">
+    <div class="wrap">
+      <span id="todayLine">Friday, October 16, 2026</span>
+      <span class="right">
+        <span>Independent coverage of the AI era</span>
+        <button id="themeToggle" class="theme-btn" type="button" aria-pressed="false">
+          <svg class="i" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2"/><path d="M12 20v2"/><path d="m4.93 4.93 1.41 1.41"/><path d="m17.66 17.66 1.41 1.41"/><path d="M2 12h2"/><path d="M20 12h2"/><path d="m6.34 17.66-1.41 1.41"/><path d="m19.07 4.93-1.41 1.41"/></svg>
+          <span id="themeLabel">Dark</span>
+        </button>
+      </span>
+    </div>
+  </div>
+  <div class="wrap">
+    <p class="brand"><a href="index.html">AI News<span class="brand-dot">.</span><span class="brand-tld">tech</span></a></p>
+    <nav class="nav" aria-label="Sections">
+      <a href="index.html">News</a>
+      <a href="models.html" aria-current="page">Models</a>
+      <a href="radar.html">Radar</a>
+      <a href="about.html">About</a>
+    </nav>
+  </div>
+  <div class="double-rule" role="presentation"></div>
+</header>
+<main id="main" class="wrap">
+  <noscript><p class="count mb-16">JavaScript is off: the full desk is readable below. Sorting, filtering, search and the comparison tray need JavaScript.</p></noscript>
+  <section class="view" id="view-models" aria-label="Model desk">
+<h1 class="sr">The Model Desk</h1>
+    <div class="section-head">
+      <h2 class="page-title">The Model Desk</h2>
+      <p class="count"><span id="modelCount" role="status">14 models</span></p>
+    </div>
+    <p class="desk-note">Current frontier and open-weight models, side by side. Prices are official list prices in USD per million tokens unless marked with an asterisk. Last updated October 17, 2026. Tick up to three models to compare them side by side.</p>
+    <div class="desk-controls">
+      <div class="field">
+        <label for="modelSearch">Search</label>
+        <input id="modelSearch" type="search" placeholder="Model, org, or keyword" autocomplete="off">
+      </div>
+      <div class="field">
+        <label for="modelLic">License</label>
+        <select id="modelLic">
+          <option value="all">All licenses</option>
+          <option value="prop">Proprietary</option>
+          <option value="open">Open weights</option>
+        </select>
+      </div>
+    </div>
+    <div class="table-wrap">
+      <table aria-describedby="deskFootnote">
+        <thead>
+          <tr>
+            <th data-key="model" aria-sort="none"><button class="th-btn" type="button" data-key="model">Model <svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg></button></th>
+            <th>Organization</th>
+            <th data-key="date" aria-sort="descending"><button class="th-btn" type="button" data-key="date">Released <svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg></button></th>
+            <th>Context</th>
+            <th class="num" data-key="in" aria-sort="none"><button class="th-btn" type="button" data-key="in">In $/1M <svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg></button></th>
+            <th class="num" data-key="out" aria-sort="none"><button class="th-btn" type="button" data-key="out">Out $/1M <svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg></button></th>
+            <th>License</th>
+          </tr>
+        </thead>
+        <tbody id="modelRows">
+          <tr data-model="FLUX 3 Image Klein" data-org="Black Forest Labs" data-date="2026-10-15" data-ctx="n/a" data-in="" data-out="" data-lic="open" data-note="5.6B-parameter open-weights image generation model designed to run on 8 GB of VRAM" data-src="https://the-decoder.com/black-forest-labs-open-weights-image-model-flux-3-image-klein-runs-on-consumer-gpus-with-just-8-gb-of-vram/">
+            <td><button class="rowlink" type="button"><span class="m-name">FLUX 3 Image Klein</span></button></td>
+            <td><span class="org">Black Forest Labs</span></td>
+            <td class="td-date">Oct 15, 2026</td>
+            <td><span class="ctx">n/a</span></td>
+            <td class="num"><span class="na">n/a</span></td><td class="num"><span class="na">n/a</span></td>
+            <td><span class="lic">Open weights</span></td>
+          </tr>
+          <tr data-model="Muse Spark Open" data-org="Meta" data-date="2026-10-15" data-ctx="1M" data-in="" data-out="" data-lic="open" data-flag="spec" data-note="816B total, 42B active MoE per Meta; text, image, video and audio input. Free license requires the label 'Built with Muse Spark Open'; providers above $20M annual revenue need a separate Meta agreement. Benchmarks per Meta's scorecard." data-src="https://the-decoder.com/">
+            <td><button class="rowlink" type="button"><span class="m-name">Muse Spark Open</span></button></td>
+            <td><span class="org">Meta</span></td>
+            <td class="td-date">Oct 15, 2026</td>
+            <td><span class="ctx">1M*</span></td>
+            <td class="num"><span class="na">n/a</span></td><td class="num"><span class="na">n/a</span></td>
+            <td><span class="lic">Open weights</span></td>
+          </tr>
+          <tr data-model="GPT-6 Astra" data-org="OpenAI" data-date="2026-09-03" data-ctx="n/a" data-in="10" data-out="50" data-lic="prop" data-note="Agentic flagship for end-to-end work. Cached input $1 per million tokens. Shelved successor GPT-6.1 Astra was withheld on safety grounds in September." data-src="https://developers.openai.com/api/docs/pricing">
+            <td><button class="rowlink" type="button"><span class="m-name">GPT-6 Astra</span></button></td>
+            <td><span class="org">OpenAI</span></td>
+            <td class="td-date">Sep 3, 2026</td>
+            <td><span class="ctx">n/a</span></td>
+            <td class="num">$10</td><td class="num">$50</td>
+            <td><span class="lic">Proprietary</span></td>
+          </tr>
+          <tr data-model="GPT-6.1 Sol" data-org="OpenAI" data-date="2026-10" data-ctx="n/a" data-in="2" data-out="10" data-lic="prop" data-note="Current mid tier at the same price GPT-6 Sol launched at in September. Cached input $0.10 per million tokens. The planned GPT-6.1 Astra was pulled before release." data-src="https://openai.com/index/introducing-gpt-6-1-sol">
+            <td><button class="rowlink" type="button"><span class="m-name">GPT-6.1 Sol</span></button></td>
+            <td><span class="org">OpenAI</span></td>
+            <td class="td-date">Oct 2026</td>
+            <td><span class="ctx">n/a</span></td>
+            <td class="num">$2</td><td class="num">$10</td>
+            <td><span class="lic">Proprietary</span></td>
+          </tr>
+          <tr data-model="Claude Fable 5.1" data-org="Anthropic" data-date="2026" data-ctx="1M" data-in="10" data-out="50" data-lic="prop" data-flag="ctx" data-note="Anthropic's flagship family. Cache reads $0.25 per million tokens. A withheld model, Mythos, was judged too capable at finding dormant bugs to ship earlier this year." data-src="https://www.anthropic.com/claude/fable">
+            <td><button class="rowlink" type="button"><span class="m-name">Claude Fable 5.1</span></button></td>
+            <td><span class="org">Anthropic</span></td>
+            <td class="td-date">2026</td>
+            <td><span class="ctx">1M*</span></td>
+            <td class="num">$10</td><td class="num">$50</td>
+            <td><span class="lic">Proprietary</span></td>
+          </tr>
+          <tr data-model="Claude Opus 5.5" data-org="Anthropic" data-date="2026-09-22" data-ctx="n/a" data-in="4" data-out="20" data-lic="prop" data-note="Performs at Fable 5.1 level on most work at 40% lower running cost than Opus 5, per Anthropic. Cache reads $0.20 per million tokens." data-src="https://www.anthropic.com/claude-opus-5-5">
+            <td><button class="rowlink" type="button"><span class="m-name">Claude Opus 5.5</span></button></td>
+            <td><span class="org">Anthropic</span></td>
+            <td class="td-date">Sep 22, 2026</td>
+            <td><span class="ctx">n/a</span></td>
+            <td class="num">$4</td><td class="num">$20</td>
+            <td><span class="lic">Proprietary</span></td>
+          </tr>
+          <tr data-model="Claude Sonnet 5.5" data-org="Anthropic" data-date="2026" data-ctx="n/a" data-in="2" data-out="10" data-lic="prop" data-flag="price" data-note="Volume tier. Cache reads $0.10 per million tokens." data-src="">
+            <td><button class="rowlink" type="button"><span class="m-name">Claude Sonnet 5.5</span></button></td>
+            <td><span class="org">Anthropic</span></td>
+            <td class="td-date">2026</td>
+            <td><span class="ctx">n/a</span></td>
+            <td class="num">$2*</td><td class="num">$10*</td>
+            <td><span class="lic">Proprietary</span></td>
+          </tr>
+          <tr data-model="Gemini 4 Argon" data-org="Google" data-date="2026-10-13" data-ctx="1M out" data-in="2" data-out="10" data-lic="prop" data-note="Frontier model for coding, enterprise knowledge work and cyber defense. Output limit raised to 1M tokens. Cached input 95% off. DeepSWE v1.1 77.9%, CWE-bench v1 68%, AutomationBench 51.3%, LVBench 91.7% per Google." data-src="https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon">
+            <td><button class="rowlink" type="button"><span class="m-name">Gemini 4 Argon</span></button></td>
+            <td><span class="org">Google</span></td>
+            <td class="td-date">Oct 13, 2026</td>
+            <td><span class="ctx">1M out</span></td>
+            <td class="num">$2</td><td class="num">$10</td>
+            <td><span class="lic">Proprietary</span></td>
+          </tr>
+          <tr data-model="Muse Wonder" data-org="Meta" data-date="2026-10-12" data-ctx="n/a" data-in="4" data-out="20" data-lic="prop" data-note="Meta's first frontier-class model, trained at the Prometheus data center in Ohio. Highest MemoryBench score in Meta's testing; emphasis on active memory across sessions." data-src="https://about.fb.com/news/2026/10/introducing-muse-wonder-models">
+            <td><button class="rowlink" type="button"><span class="m-name">Muse Wonder</span></button></td>
+            <td><span class="org">Meta</span></td>
+            <td class="td-date">Oct 12, 2026</td>
+            <td><span class="ctx">n/a</span></td>
+            <td class="num">$4</td><td class="num">$20</td>
+            <td><span class="lic">Proprietary</span></td>
+          </tr>
+          <tr data-model="Muse Wonder Full" data-org="Meta" data-date="2026-10-12" data-ctx="n/a" data-in="" data-out="" data-lic="prop" data-note="The larger sibling is not served through the Meta Model API at all. Exclusive to Muse Code subscribers." data-src="https://about.fb.com/news/2026/10/introducing-muse-wonder-models">
+            <td><button class="rowlink" type="button"><span class="m-name">Muse Wonder Full</span></button></td>
+            <td><span class="org">Meta</span></td>
+            <td class="td-date">Oct 12, 2026</td>
+            <td><span class="ctx">n/a</span></td>
+            <td class="num"><span class="na">n/a</span></td><td class="num"><span class="na">n/a</span></td>
+            <td><span class="lic">Proprietary</span></td>
+          </tr>
+          <tr data-model="Grok 4.5" data-org="SpaceXAI" data-date="2026-07-08" data-ctx="n/a" data-in="2" data-out="6" data-lic="prop" data-flag="price" data-note="Pricing from launch coverage, not an official page. Grok 4.7 appears in xAI's docs with a May 2026 knowledge cutoff; Grok 5 is unannounced. The lab now reports under the SpaceXAI name." data-src="">
+            <td><button class="rowlink" type="button"><span class="m-name">Grok 4.5</span></button></td>
+            <td><span class="org">SpaceXAI</span></td>
+            <td class="td-date">Jul 8, 2026</td>
+            <td><span class="ctx">n/a</span></td>
+            <td class="num">$2*</td><td class="num">$6*</td>
+            <td><span class="lic">Proprietary</span></td>
+          </tr>
+          <tr data-model="DeepSeek V4.1" data-org="DeepSeek" data-date="2026-09" data-ctx="n/a" data-in="" data-out="" data-lic="open" data-flag="spec" data-note="New-generation open-weight MoE. A 552B-parameter architecture is reported by launch coverage; API pricing varies by host." data-src="">
+            <td><button class="rowlink" type="button"><span class="m-name">DeepSeek V4.1</span></button></td>
+            <td><span class="org">DeepSeek</span></td>
+            <td class="td-date">Sep 2026</td>
+            <td><span class="ctx">n/a</span></td>
+            <td class="num"><span class="na">n/a</span></td><td class="num"><span class="na">n/a</span></td>
+            <td><span class="lic">Open weights</span></td>
+          </tr>
+          <tr data-model="Qwen3.8-Max" data-org="Alibaba" data-date="2026-08" data-ctx="n/a" data-in="" data-out="" data-lic="open" data-flag="spec" data-note="Flagship of the Qwen3.8 generation. A 2.4T-parameter MoE size is reported by launch coverage; open-weights availability was promised with permissive licensing." data-src="">
+            <td><button class="rowlink" type="button"><span class="m-name">Qwen3.8-Max</span></button></td>
+            <td><span class="org">Alibaba</span></td>
+            <td class="td-date">Aug 2026</td>
+            <td><span class="ctx">n/a</span></td>
+            <td class="num"><span class="na">n/a</span></td><td class="num"><span class="na">n/a</span></td>
+            <td><span class="lic">Open weights</span></td>
+          </tr>
+          <tr data-model="Kimi K3" data-org="Moonshot AI" data-date="2026-09" data-ctx="n/a" data-in="" data-out="" data-lic="open" data-flag="spec" data-note="Latest generation of the Kimi family, which has been refreshed every few months since K2 in July 2025 and competes with closed flagships on agentic tool use." data-src="">
+            <td><button class="rowlink" type="button"><span class="m-name">Kimi K3</span></button></td>
+            <td><span class="org">Moonshot AI</span></td>
+            <td class="td-date">Sep 2026</td>
+            <td><span class="ctx">n/a</span></td>
+            <td class="num"><span class="na">n/a</span></td><td class="num"><span class="na">n/a</span></td>
+            <td><span class="lic">Open weights</span></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="empty" id="modelEmpty" hidden>
+      <h3>No models match</h3>
+      <p id="modelEmptyMsg">Nothing in the desk matches your filters.</p>
+      <button class="linklike" type="button" id="clearModels">Clear search and filters</button>
+    </div>
+    <p class="desk-foot" id="deskFootnote">n/a means not disclosed at press time. An asterisk (*) marks figures reported by launch coverage or aggregators rather than an official page. Cache pricing, batch tiers and volume discounts are omitted. See <a href="about.html">methodology</a>.</p>
+  </section>
+</main>
+<footer>
+  <div class="wrap">
+    <div class="foot-grid">
+      <div>
+        <p class="foot-brand">AI News<span class="brand-dot">.</span><span class="brand-tld">tech</span></p>
+        <p>Independent, text-first coverage of the AI era. Short briefs, primary sources, a model comparison desk, and a radar of what is ahead.</p>
+      </div>
+      <div>
+        <h2>Sections</h2>
+        <ul>
+          <li><a href="index.html">News</a></li>
+          <li><a href="models.html">The Model Desk</a></li>
+          <li><a href="radar.html">Radar</a></li>
+          <li><a href="about.html">About and methodology</a></li>
+        </ul>
+      </div>
+      <div>
+        <h2>Contact</h2>
+        <ul>
+          <li><a href="mailto:tips@ai-news.tech">tips@ai-news.tech</a></li>
+          <li><a href="mailto:corrections@ai-news.tech">corrections@ai-news.tech</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="colophon">© 2026 AI News.tech. Every brief links its sources. Figures as of October 17, 2026. Shortcuts: "/" opens desk search, "T" switches theme.</div>
+  </div>
+</footer>
+<script src="assets/app.js"></script>
+</body>
+</html>
+<dialog class="drawer" id="modelDialog" aria-labelledby="dlgName">
+  <div class="drawer-inner">
+    <div class="drawer-head">
+      <p class="kicker">Model</p>
+      <button class="icon-btn" type="button" id="dlgClose" aria-label="Close details"><svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg></button>
+    </div>
+    <h3 id="dlgName"></h3>
+    <dl class="spec">
+      <dt>Organization</dt><dd id="dlgOrg"></dd>
+      <dt>Released</dt><dd id="dlgDate"></dd>
+      <dt>Context</dt><dd id="dlgCtx"></dd>
+      <dt>Input $/1M</dt><dd id="dlgIn"></dd>
+      <dt>Output $/1M</dt><dd id="dlgOut"></dd>
+      <dt>License</dt><dd id="dlgLic"></dd>
+    </dl>
+    <p class="note" id="dlgNote"></p>
+    <a class="src-link" id="dlgSrc" href="#" target="_blank" rel="noopener" hidden>Official page <svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a>
+  </div>
+</dialog>
+<div id="cmpBar">
+  <span class="names" id="cmpNames"></span>
+  <button type="button" id="cmpGo" disabled>Compare</button>
+  <button type="button" class="ghost" id="cmpClear">Clear</button>
+</div>
+<dialog class="compare" id="compareDialog" aria-labelledby="cmpTitle">
+  <div class="compare-inner">
+    <div class="compare-head">
+      <h3 id="cmpTitle">Side by side</h3>
+      <button class="icon-btn" type="button" id="cmpClose" aria-label="Close comparison"><svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg></button>
+    </div>
+    <div id="cmpBody"></div>
+    <p class="note">Prices are official list prices per million tokens unless marked with an asterisk; n/a means not disclosed at press time. Bars scale to the highest price among the selected models.</p>
+  </div>
+</dialog>

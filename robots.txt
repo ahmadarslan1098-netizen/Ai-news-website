@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+# Generator source and content store are not reader-facing pages.
+Disallow: /tools/
+Disallow: /content/
+Disallow: /.github/
+
+Sitemap: https://ai-news.tech/sitemap.xml

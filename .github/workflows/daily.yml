@@ -1,0 +1,60 @@
+name: Daily AI news
+
+on:
+  schedule:
+    # 13:10 UTC daily (~9:10am US Eastern). Adjust to taste.
+    - cron: '10 13 * * *'
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: 'Fetch + draft only, do not write or commit'
+        type: boolean
+        default: false
+
+# Needed so the job can commit the regenerated site back.
+permissions:
+  contents: write
+
+# Never let two runs overlap.
+concurrency:
+  group: daily-news
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+
+      - name: Generate the day's briefs
+        env:
+          # Defaults to Google/Gemini. Override with repository variables if you switch providers.
+          AI_PROVIDER: ${{ vars.AI_PROVIDER || 'google' }}
+          AI_MODEL: ${{ vars.AI_MODEL }}
+          AI_BASE_URL: ${{ vars.AI_BASE_URL }}
+          AI_API_KEY: ${{ secrets.AI_API_KEY }}
+        run: node tools/generate.mjs ${{ inputs.dry_run && '--dry' || '' }}
+
+      - name: Security self-check
+        if: ${{ !inputs.dry_run }}
+        run: node security-check.mjs
+
+      - name: Commit and push
+        if: ${{ !inputs.dry_run }}
+        run: |
+          git config user.name "ai-news-bot"
+          git config user.email "bot@users.noreply.github.com"
+          if [ -z "$(git status --porcelain)" ]; then
+            echo "No changes to publish today."
+            exit 0
+          fi
+          git add -A
+          git commit -m "news: daily briefs $(date -u +%Y-%m-%d)"
+          git push
