@@ -32,9 +32,45 @@
       "live": false
     },
     {
+      "date": "2026-10-15",
+      "text": "Google launched its Universal Cart shopping tool across Google Search and the Gemini application in the United States.",
+      "url": "https://techcrunch.com/2026/10/15/googles-universal-cart-shopping-tool-launches-in-the-us/",
+      "live": false
+    },
+    {
+      "date": "2026-10-15",
+      "text": "Rivian announced plans to integrate artificial intelligence agents into its vehicles, with additional details scheduled for an event in December.",
+      "url": "https://techcrunch.com/2026/10/15/ai-agents-are-coming-to-rivians-cars/",
+      "live": false
+    },
+    {
+      "date": "2026-10-15",
+      "text": "Amazon devices chief Panos Panay predicted ambient artificial intelligence hardware will operate in the background to replace traditional mobile applications.",
+      "url": "https://techcrunch.com/2026/10/15/amazon-devices-chief-panos-panay-sees-a-future-where-ai-devices-replace-the-need-to-use-apps/",
+      "live": false
+    },
+    {
       "date": "2026-10-14",
       "text": "The Information reports Anthropic's slowing growth could weigh on its IPO valuation.",
       "url": "https://www.theinformation.com/",
+      "live": false
+    },
+    {
+      "date": "2026-10-14",
+      "text": "OpenAI published an analysis detailing the adoption and operational expansion of agentic software systems among enterprises in the European Union.",
+      "url": "https://openai.com/index/the-eus-next-chapter-in-ai-is-agentic/",
+      "live": false
+    },
+    {
+      "date": "2026-10-14",
+      "text": "SentinelOne reported using OpenAI Daybreak to accelerate software malware investigations from weeks of manual review to hours.",
+      "url": "https://openai.com/index/sentinelone/",
+      "live": false
+    },
+    {
+      "date": "2026-10-14",
+      "text": "Third Moment Research deployed 10,000 autonomous agents for 36-hour operational runs using OpenAI models including GPT-6 Astra and Daybreak.",
+      "url": "https://openai.com/index/third-moment-research/",
       "live": false
     },
     {
