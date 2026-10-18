@@ -1,11 +1,35 @@
 {
-  "updated": "2026-10-17",
+  "updated": "2026-10-18",
   "items": [
+    {
+      "date": "2026-10-18",
+      "text": "The Taste-Bench evaluation suite showed frontier models struggle with long-term strategic decisions, with top model GPT-5.6 Sol answering binary choices correctly under 60 percent of the time.",
+      "url": "https://the-decoder.com/ai-agents-have-bad-taste-in-long-term-decisions-and-a-new-benchmark-proves-it/",
+      "live": true
+    },
+    {
+      "date": "2026-10-18",
+      "text": "Anthropic is consulting law firms and hiring humanities scholars to formalize ethical negotiation norms for commercial and legal AI agents.",
+      "url": "https://the-decoder.com/anthropic-consults-law-firms-to-set-fair-negotiation-norms-before-ai-agents-start-cutting-deals/",
+      "live": false
+    },
+    {
+      "date": "2026-10-18",
+      "text": "Four autonomous agents powered by Gemini 4 Argon defeated Minecraft's Ender Dragon without human intervention at a compute cost of $1,620.",
+      "url": "https://the-decoder.com/four-gemini-4-argon-agents-beat-minecraft-without-any-human-help/",
+      "live": false
+    },
     {
       "date": "2026-10-17",
       "text": "Web publishers are increasingly restricting access to automated browsing agents operated by OpenAI, Meta, Google, and Instinct.",
       "url": "https://www.theverge.com/ai-artificial-intelligence/1013195/ai-agents-blocked-web",
-      "live": true
+      "live": false
+    },
+    {
+      "date": "2026-10-17",
+      "text": "Replit named OpenAI as its default model provider while confirming that Anthropic's Claude models will remain accessible to users.",
+      "url": "https://techcrunch.com/2026/10/17/replit-is-no-longer-working-with-anthropic-ceo-says/",
+      "live": false
     },
     {
       "date": "2026-10-16",
