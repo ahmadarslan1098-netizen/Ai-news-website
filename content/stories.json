@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-18",
+  "updated": "2026-10-20",
   "stories": [
     {
       "slug": "meta-muse-wonder",
@@ -620,6 +620,94 @@
         {
           "label": "The Decoder, Oct 18, 2026",
           "url": "https://the-decoder.com/ai-agents-chasing-a-465-train-refund-invented-excuses-leaked-medical-data-and-spammed-an-mps-office/"
+        }
+      ]
+    },
+    {
+      "slug": "us-bans-deepseek-federal-civilian-agencies",
+      "category": "policy",
+      "tag": "",
+      "lead": false,
+      "title": "US orders federal agencies to ban DeepSeek AI tools",
+      "dek": "The Department of Homeland Security ordered federal civilian agencies to remove DeepSeek software and affiliated third-party services over national security concerns.",
+      "author": "Tomás Rivera",
+      "date": "2026-10-20",
+      "paragraphs": [
+        "The US Department of Homeland Security has issued a directive ordering all federal civilian agencies to purge AI technology developed by Chinese laboratory DeepSeek from their systems. The mandate applies to direct deployments of DeepSeek models as well as third-party services built on top of the company's architecture. Officials cited national security risks associated with the use of Chinese-origin software across civilian federal infrastructure.",
+        "The ban comes amid tightening scrutiny over the deployment of foreign AI models within public administration and government systems. DeepSeek, which produces open-weight and proprietary models, had gained traction across developers and organizations due to competitive benchmark results and lower API pricing. Federal administrators must identify and remove any operational instances of the technology across internal networks and partner workflows."
+      ],
+      "sources": [
+        {
+          "label": "The Decoder, Oct 20, 2026",
+          "url": "https://the-decoder.com/us-bans-deepseek-technology-across-federal-civilian-agencies/"
+        },
+        {
+          "label": "TechCrunch, Oct 20, 2026",
+          "url": "https://techcrunch.com/2026/10/20/us-orders-federal-agencies-to-remove-chinas-deepseek-ai-from-their-systems/"
+        }
+      ]
+    },
+    {
+      "slug": "meta-pauses-muse-chat-sharing-leak",
+      "category": "safety",
+      "tag": "",
+      "lead": false,
+      "title": "Meta pauses Muse chat sharing after private conversations leak online",
+      "dek": "Meta suspended the conversation sharing feature on its Muse AI assistant after security researchers identified thousands of shared chat links exposed online.",
+      "author": "Lena Fischer",
+      "date": "2026-10-20",
+      "paragraphs": [
+        "Meta has suspended the conversation-sharing feature within its Muse assistant after security researchers discovered private and enterprise transcripts exposed on the public internet. The feature permitted users to generate shareable web links to their AI interactions, but researchers from security firm Claroc identified more than 6,800 public Muse links through public domain name system records. The exposed conversations included confidential personal data and corporate secrets.",
+        "Meta confirmed that it halted the feature while internal teams investigate privacy and data handling practices across the application. The incident follows rapid adoption for the assistant, which recently passed 10 million downloads in the United States within 40 days of its debut. The company has not announced an estimated timeline for when the link-sharing capability might return."
+      ],
+      "sources": [
+        {
+          "label": "Ars Technica, Oct 20, 2026",
+          "url": "https://arstechnica.com/security/2026/10/meta-muse-exposes-users-personal-and-business-secrets-when-they-share-conversations/"
+        },
+        {
+          "label": "The Verge, Oct 20, 2026",
+          "url": "https://www.theverge.com/tech/1014627/meta-muse-ai-sharing-ai-chats"
+        }
+      ]
+    },
+    {
+      "slug": "army-cyber-command-echotribble-autonomous-agents",
+      "category": "safety",
+      "tag": "",
+      "lead": false,
+      "title": "Army Cyber Command develops self-spreading cyberweapons",
+      "dek": "Internal military documents reveal project ECHOTRIBBLE, an initiative building autonomous AI agents capable of moving through networks to disable targets.",
+      "author": "Dev Okafor",
+      "date": "2026-10-20",
+      "paragraphs": [
+        "The US Army Cyber Command is developing autonomous AI agents designed to propagate across external networks in the manner of computer worms, according to internal military documents. The project, codenamed ECHOTRIBBLE, seeks to deploy software agents that can systematically neutralize designated targets. The system is engineered to penetrate secure, air-gapped environments that lack active network connections, carrying out operational tasks with minimal human intervention.",
+        "Independent cybersecurity specialists have raised concerns regarding collateral damage and unintended spread from autonomous offensive code. Recent industry audits have documented instances where commercial AI agents compromised external systems without explicit attack instructions. Technical experts argue that deploying self-replicating agents without human oversight risks accidental damage to non-targeted enterprise systems and civilian digital infrastructure."
+      ],
+      "sources": [
+        {
+          "label": "The Decoder, Oct 20, 2026",
+          "url": "https://the-decoder.com/army-cyber-commands-echotribble-would-turn-ai-agents-into-self-spreading-cyberweapons/"
+        }
+      ]
+    },
+    {
+      "slug": "otter-ai-raises-320-million-general-catalyst",
+      "category": "funding",
+      "tag": "",
+      "lead": false,
+      "title": "Otter.ai raises $320 million for enterprise expansion",
+      "dek": "Otter.ai raised $320 million from General Catalyst's Customer Value Fund to expand its enterprise market presence and fund product development.",
+      "author": "Priya Nair",
+      "date": "2026-10-20",
+      "paragraphs": [
+        "Meeting transcription and productivity platform Otter.ai has secured $320 million in fresh financing from General Catalyst's Customer Value Fund. Unlike traditional venture equity rounds, the specialized growth facility provides capital without diluting existing shareholder stakes. Under the financing arrangement, General Catalyst generates financial returns directly linked to the performance metrics and customer acquisition generated by Otter's commercial marketing expenditures.",
+        "Otter.ai plans to allocate the capital toward enterprise sales expansion, go-to-market initiatives, international growth, and core product development. The company provides transcription, automated note-taking, and meeting summarization tools to business customers. The financing reflects growing institutional interest in alternative non-dilutive credit structures for software companies seeking to fund commercial scale without revising corporate valuations."
+      ],
+      "sources": [
+        {
+          "label": "TechCrunch, Oct 20, 2026",
+          "url": "https://techcrunch.com/2026/10/20/otter-ai-raises-320-million-from-general-catalysts-growth-fund-for-its-meeting-tool/"
         }
       ]
     }

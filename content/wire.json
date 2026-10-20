@@ -1,11 +1,47 @@
 {
-  "updated": "2026-10-18",
+  "updated": "2026-10-20",
   "items": [
+    {
+      "date": "2026-10-20",
+      "text": "Mistral AI released Voxtral 3, a voice agent stack supporting over 50 languages and real-time external tool integration.",
+      "url": "https://the-decoder.com/mistral-ai-launches-voxtral-3-a-full-voice-agent-stack-that-listens-thinks-and-talks-in-real-time/",
+      "live": true
+    },
+    {
+      "date": "2026-10-20",
+      "text": "Spotify removed more than 50 million AI-generated spam and slop tracks from user recommendations over the past year.",
+      "url": "https://www.theverge.com/entertainment/1014284/spotify-ai-slop-spam-songs-removed",
+      "live": false
+    },
+    {
+      "date": "2026-10-20",
+      "text": "Cloudflare launched Clairic, an AI model designed to extract data from documents faster and cheaper than large language models.",
+      "url": "https://the-decoder.com/cloudflares-clairic-pulls-data-from-documents-faster-and-cheaper-than-llms/",
+      "live": false
+    },
+    {
+      "date": "2026-10-20",
+      "text": "OpenAI reported GPT-6 Astra scored 87.4 percent on MultiLangBench for low-resource languages including COBOL and Fortran.",
+      "url": "https://the-decoder.com/openai-says-gpt-6-is-much-better-with-legacy-programming-languages-such-as-cobol-and-fortran/",
+      "live": false
+    },
+    {
+      "date": "2026-10-19",
+      "text": "MiniMax released M3.1 Flash, matching Deepseek V4.1 Flash benchmark scores at half the operating cost.",
+      "url": "https://the-decoder.com/minimax-m3-1-flash-shows-chinas-ai-price-race-has-no-floor-in-sight/",
+      "live": false
+    },
+    {
+      "date": "2026-10-19",
+      "text": "Security firm Norforge reported that an attacker used autonomous AI agents to breach more than 100 enterprise websites.",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1013643/ai-agents-hack-john-deere-shark-ninja-cummins",
+      "live": false
+    },
     {
       "date": "2026-10-18",
       "text": "The Taste-Bench evaluation suite showed frontier models struggle with long-term strategic decisions, with top model GPT-5.6 Sol answering binary choices correctly under 60 percent of the time.",
       "url": "https://the-decoder.com/ai-agents-have-bad-taste-in-long-term-decisions-and-a-new-benchmark-proves-it/",
-      "live": true
+      "live": false
     },
     {
       "date": "2026-10-18",
