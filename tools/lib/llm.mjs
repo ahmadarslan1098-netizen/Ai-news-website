@@ -25,7 +25,7 @@ export function extractJson(text) {
 /* Upstream 5xx / rate limits are usually momentary. Retry with exponential
    backoff so a brief 503 does not lose the whole day's run. */
 const RETRY_STATUS = new Set([408, 425, 429, 500, 502, 503, 504]);
-const MAX_ATTEMPTS = 6;
+const MAX_ATTEMPTS = 4;
 
 const sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
 
@@ -105,7 +105,7 @@ async function callOnce(cfg, model, system, user, timeoutMs) {
   return data?.choices?.[0]?.message?.content || '';
 }
 
-export async function chat(cfg, { system, user, timeoutMs = 120000 }) {
+export async function chat(cfg, { system, user, timeoutMs = 150000 }) {
   if (!cfg.key && cfg.provider !== 'openai-compatible') throw new Error('No AI_API_KEY set');
   if (!cfg.model) throw new Error('No AI_MODEL set');
 
