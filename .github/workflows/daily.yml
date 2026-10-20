@@ -38,6 +38,7 @@ jobs:
           # Defaults to Google/Gemini. Override with repository variables if you switch providers.
           AI_PROVIDER: ${{ vars.AI_PROVIDER || 'google' }}
           AI_MODEL: ${{ vars.AI_MODEL }}
+          AI_MODEL_FALLBACKS: ${{ vars.AI_MODEL_FALLBACKS }}
           AI_BASE_URL: ${{ vars.AI_BASE_URL }}
           AI_API_KEY: ${{ secrets.AI_API_KEY }}
         run: node tools/generate.mjs ${{ inputs.dry_run && '--dry' || '' }}

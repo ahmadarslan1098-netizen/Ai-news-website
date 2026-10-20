@@ -59,6 +59,7 @@ export function llmConfig(env = process.env) {
     provider,
     base: (env.AI_BASE_URL || defaults.base).replace(/\/$/, ''),
     model: env.AI_MODEL || defaults.model,
-    key: env.AI_API_KEY || env.OPENAI_API_KEY || ''
+    key: env.AI_API_KEY || env.OPENAI_API_KEY || '',
+    fallbacks: String(env.AI_MODEL_FALLBACKS || '').split(',').map((s) => s.trim()).filter(Boolean)
   };
 }
