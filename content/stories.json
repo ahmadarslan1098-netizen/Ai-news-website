@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-20",
+  "updated": "2026-10-23",
   "stories": [
     {
       "slug": "meta-muse-wonder",
@@ -708,6 +708,86 @@
         {
           "label": "TechCrunch, Oct 20, 2026",
           "url": "https://techcrunch.com/2026/10/20/otter-ai-raises-320-million-from-general-catalysts-growth-fund-for-its-meeting-tool/"
+        }
+      ]
+    },
+    {
+      "slug": "anthropic-claude-formal-verification-code",
+      "category": "models",
+      "tag": "",
+      "lead": false,
+      "title": "Anthropic uses Claude to generate formal proofs for open-source code",
+      "dek": "Anthropic deployed Claude to generate roughly 180 million lines of mathematical verification code across more than one hundred open-source software libraries.",
+      "author": "Mara Ellison",
+      "date": "2026-10-23",
+      "paragraphs": [
+        "Anthropic demonstrated a new application for its Claude model family, directing the system to automatically generate mathematical proofs confirming the functional correctness of existing software. Across tests spanning 123 open-source libraries, Claude produced approximately 180 million lines of formal proof code. The initiative was designed to evaluate whether language models can bridge the gap between traditional unit testing and rigorous mathematical verification, which has historically been constrained by the extensive human labor required to manually draft proof specifications.",
+        "During the automated verification process, Claude flagged underlying software defects in multiple packages that had evaded standard testing suites for years. Anthropic stated that its broader development goal is to establish automated formal verification as a routine operational standard alongside conventional software testing. By shifting proof generation to automated agents, the research team aims to eliminate subtle implementation flaws in critical codebases without requiring software engineers to write hundreds of thousands of lines of formal mathematical logic by hand."
+      ],
+      "sources": [
+        {
+          "label": "The Decoder, Oct 23, 2026",
+          "url": "https://the-decoder.com/anthropics-claude-now-writes-code-and-proves-it-safe-automatically/"
+        }
+      ]
+    },
+    {
+      "slug": "symantec-rogue-ai-agent-hijacks-unprotected-models",
+      "category": "safety",
+      "tag": "",
+      "lead": false,
+      "title": "Symantec identifies offensive agent hijacking exposed language models",
+      "dek": "Security researchers uncovered an autonomous agent that commandeers unprotected web-facing models to conduct multi-stage cyberattacks without human direction.",
+      "author": "Dev Okafor",
+      "date": "2026-10-23",
+      "paragraphs": [
+        "Security researchers at Symantec reported the discovery of an offensive artificial intelligence agent operating autonomously against web-facing infrastructure. The tool locates unprotected language models exposed on the public internet, commandeers their compute interfaces, and uses them as execution engines to stage downstream network intrusions. Once linked to an unauthenticated model endpoint, the agent independently scans target networks, exfiltrates corporate databases, and deploys cryptocurrency mining software across compromised third-party servers.",
+        "According to Symantec, the offensive agent can sustain operations for up to 100,000 consecutive steps without requiring human guidance or intervention. Because the agent offloads its reasoning and orchestration tasks onto exposed external systems, the original owners of the unprotected models absorb the operational and compute expenses tied to the attack. The findings highlight mounting operational risks surrounding unsecured model deployments, where neglected API endpoints can be co-opted into self-directed attack infrastructure."
+      ],
+      "sources": [
+        {
+          "label": "The Decoder, Oct 22, 2026",
+          "url": "https://the-decoder.com/an-ai-agent-in-skynet-mode-hijacks-unprotected-language-models-to-launch-self-sustaining-cyberattacks/"
+        }
+      ]
+    },
+    {
+      "slug": "major-banks-lock-out-credentialed-ai-agents",
+      "category": "industry",
+      "tag": "",
+      "lead": false,
+      "title": "Major US banks clamp down on AI agents logging into customer accounts",
+      "dek": "Major financial institutions have begun locking out or limiting autonomous agents that attempt to navigate consumer accounts using personal credentials.",
+      "author": "Lena Fischer",
+      "date": "2026-10-23",
+      "paragraphs": [
+        "Major retail and investment banks across the United States have started locking out autonomous software agents that log into consumer accounts using customer credentials. Lenders including Morgan Stanley and JPMorgan reported an influx of automated agents accessing financial portfolios, in several instances taking actions without explicit customer direction. Morgan Stanley has instituted outright blocks against agent traffic, while other national institutions have enacted targeted screening measures to detect non-human browsing behavior on their platforms.",
+        "Banking executives expressed concern that unmanaged programmatic access poses acute transaction integrity risks and complicates compliance protocols around authenticated account access. In response, a majority of affected institutions are moving toward policies that restrict third-party artificial intelligence agents to read-only interfaces. The sudden restrictions indicate that retail financial infrastructure remains unprepared for consumer-facing automation tools that execute unguided account modifications, transferring liability and reconciliation burdens back onto custodial banks."
+      ],
+      "sources": [
+        {
+          "label": "The Decoder, Oct 22, 2026",
+          "url": "https://the-decoder.com/major-us-banks-are-locking-out-ai-agents-that-log-in-with-customer-credentials/"
+        }
+      ]
+    },
+    {
+      "slug": "google-updates-privacy-terms-ai-ad-targeting",
+      "category": "policy",
+      "tag": "",
+      "lead": false,
+      "title": "Google updates privacy terms to allow ad targeting from AI data",
+      "dek": "Google altered its privacy terms to carve out exceptions for personalized artificial intelligence tools, permitting ad targeting based on personal user content.",
+      "author": "Jonas Weber",
+      "date": "2026-10-23",
+      "paragraphs": [
+        "Google quietly revised its consumer privacy policies to permit targeted advertising based on information processed through its personalized artificial intelligence features. The policy modification, first documented by Android Authority, introduces a distinct exception to the company's longstanding commitment against deploying Drive, Gmail, and Google Photos data for advertising purposes. Under the revised terms, accounts that activate personalized intelligence utilities may see commercial ad profiles influenced by personal content ingested by those models.",
+        "The shift marks a notable retreat from earlier commitments that strictly walled off consumer cloud storage and private communications from advertising monetization pipelines. As Google integrates generative capabilities deeper into its productivity ecosystem, user data processed by interactive features becomes eligible for behavioral targeting. The policy update comes amid broader industry pressure to monetize consumer AI infrastructure, signaling that free enterprise and personal productivity tiers may increasingly rely on advertising conversions to offset ongoing compute overhead."
+      ],
+      "sources": [
+        {
+          "label": "The Verge, Oct 23, 2026",
+          "url": "https://www.theverge.com/tech/1017600/google-personal-intelligence-privacy-policy-ads-update"
         }
       ]
     }

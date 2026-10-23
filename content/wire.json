@@ -1,11 +1,47 @@
 {
-  "updated": "2026-10-20",
+  "updated": "2026-10-23",
   "items": [
+    {
+      "date": "2026-10-23",
+      "text": "OpenAI is nearing completion of a funding round of up to $30 billion after lowering its target valuation.",
+      "url": "https://the-decoder.com/openai-lowers-valuation-target-raises-up-to-30-billion/",
+      "live": true
+    },
+    {
+      "date": "2026-10-23",
+      "text": "Canva launched Craft, a proprietary image generation model built on a two-stage architecture that plans layouts prior to image synthesis.",
+      "url": "https://the-decoder.com/canva-launches-craft-its-first-in-house-image-model/",
+      "live": false
+    },
+    {
+      "date": "2026-10-23",
+      "text": "OpenAI formed a technical partnership with Poland's NASK research institute to collaborate on security testing and AI safety safeguards.",
+      "url": "https://openai.com/index/openai-nask-ai-safety-security-partnership",
+      "live": false
+    },
+    {
+      "date": "2026-10-22",
+      "text": "DeepSeek reportedly raised $15 billion in new capital shortly after United States regulators ordered federal agencies to cease using its systems.",
+      "url": "https://techcrunch.com/2026/10/22/deepseek-reportedly-raises-15b-days-after-us-restrictions/",
+      "live": false
+    },
+    {
+      "date": "2026-10-22",
+      "text": "Uber expanded its deployment of OpenAI's ChatGPT Work across its global workforce of more than 30,000 employees.",
+      "url": "https://openai.com/index/uber-chatgpt-work-rollout",
+      "live": false
+    },
+    {
+      "date": "2026-10-22",
+      "text": "A Gartner survey of 2,002 chief information officers revealed that only 13 percent of companies have obtained measurable business returns from AI spending.",
+      "url": "https://the-decoder.com/only-13-percent-of-companies-see-real-returns-from-ai-gartner-survey-finds/",
+      "live": false
+    },
     {
       "date": "2026-10-20",
       "text": "Mistral AI released Voxtral 3, a voice agent stack supporting over 50 languages and real-time external tool integration.",
       "url": "https://the-decoder.com/mistral-ai-launches-voxtral-3-a-full-voice-agent-stack-that-listens-thinks-and-talks-in-real-time/",
-      "live": true
+      "live": false
     },
     {
       "date": "2026-10-20",
