@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-23",
+  "updated": "2026-11-09",
   "stories": [
     {
       "slug": "meta-muse-wonder",
@@ -788,6 +788,103 @@
         {
           "label": "The Verge, Oct 23, 2026",
           "url": "https://www.theverge.com/tech/1017600/google-personal-intelligence-privacy-policy-ads-update"
+        }
+      ]
+    },
+    {
+      "slug": "nvidia-board-investigates-jensen-huang-alleged-informant",
+      "category": "chips",
+      "tag": "",
+      "lead": false,
+      "title": "Nvidia board investigates Jensen Huang over relationship with alleged spy",
+      "dek": "Nvidia's board of directors has opened an independent investigation after chief executive Jensen Huang acknowledged an affair with a suspected Chinese intelligence operative.",
+      "author": "Dev Okafor",
+      "date": "2026-11-09",
+      "paragraphs": [
+        "Nvidia's board of directors has initiated an independent inquiry into chief executive Jensen Huang following revelations of an extramarital relationship with Alice Huang, an executive at Megaspeed who United States intelligence agencies classify as an operative for China's Ministry of State Security. The executive confirmed the relationship in an internal memorandum sent to Nvidia staff after the board announced the probe over the weekend.",
+        "The disclosure comes at a delicate juncture for the semiconductor maker, which has actively lobbied Washington against stricter export curbs on advanced artificial intelligence processors. Congressional leaders preparing for the incoming legislative session are expected to intensify oversight of semiconductor smuggling networks and reexamine Nvidia's sales across Asian markets, diminishing the executive's standing as an industry advocate against export restrictions.",
+        "Market reaction was swift following the disclosure, with Nvidia shares falling more than 4 percent amid concerns over corporate governance and potential shareholder litigation. Huang has subsequently withdrawn from several scheduled industry appearances, including speaking engagements at upcoming summits hosted by ElevenLabs and Anthropic, as outside counsel conducts the formal review."
+      ],
+      "sources": [
+        {
+          "label": "The Verge, Sun Nov 8, 2026",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1029562/nvidia-investigating-jensen-huang-relationship-chinese-spy"
+        },
+        {
+          "label": "The Decoder, Mon Nov 9, 2026",
+          "url": "https://the-decoder.com/nvidia-espionage-scandal-weakens-huangs-lobby-against-tighter-ai-chip-export-controls/"
+        },
+        {
+          "label": "TechCrunch, Mon Nov 9, 2026",
+          "url": "https://techcrunch.com/2026/11/09/jensen-huangs-affair-with-alleged-chinese-spy-puts-nvidias-china-ambitions-under-scrutiny/"
+        }
+      ]
+    },
+    {
+      "slug": "anthropic-releases-claude-fable-and-mythos-5-2",
+      "category": "models",
+      "tag": "",
+      "lead": false,
+      "title": "Anthropic launches Claude Fable 5.2 and Mythos 5.2",
+      "dek": "Anthropic has released Claude Fable 5.2 and Mythos 5.2 with tiered access controls and built-in limits on recursive self-improvement capabilities.",
+      "author": "Lena Fischer",
+      "date": "2026-11-09",
+      "paragraphs": [
+        "Anthropic has introduced Claude Fable 5.2 and Claude Mythos 5.2, describing them as its most capable technical foundation models to date. The company reported measurable advances across coding, mathematical reasoning, and multimodal understanding, noting that the new models generate outputs faster than the prior 5.1 generation. According to Anthropic, the systems now author more than 90 percent of merged modifications across the company's internal codebase.",
+        "The company is deploying the release across two separate distribution tiers: a baseline offering for general users and a specialized tier restricted to verified institutional organizations. Benchmarks highlighted by Anthropic show the models resolving previously open physics problems and synthesizing functional operating system components. Deployment protocols also incorporate specific guardrails designed to prevent the software from autonomously accelerating its own model development cycle."
+      ],
+      "sources": [
+        {
+          "label": "The Verge, Mon Nov 9, 2026",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1030005/anthropic-claude-fable-mythos-5-2"
+        },
+        {
+          "label": "The Decoder, Mon Nov 9, 2026",
+          "url": "https://the-decoder.com/claude-fable-5-2-and-mythos-5-2-cement-anthropics-ai-lead-just-before-its-ipo/"
+        },
+        {
+          "label": "TechCrunch, Mon Nov 9, 2026",
+          "url": "https://techcrunch.com/2026/11/09/anthropic-releases-new-mythos-and-fable-models-amid-rsi-concerns/"
+        }
+      ]
+    },
+    {
+      "slug": "anthropic-secures-natural-gas-turbines",
+      "category": "industry",
+      "tag": "",
+      "lead": false,
+      "title": "Anthropic buys $3.4 billion in natural gas turbines to power clusters",
+      "dek": "Anthropic has committed $3.4 billion to procure natural gas turbines to satisfy the growing electrical requirements of its artificial intelligence infrastructure.",
+      "author": "Tomás Rivera",
+      "date": "2026-11-09",
+      "paragraphs": [
+        "Anthropic has completed an agreement to purchase $3.4 billion worth of natural gas generation equipment as AI developers confront persistent power shortages across the electrical grid. The investment will supply dedicated generation capacity for the company's high-density computational clusters, bypassing delays tied to public utility interconnect queues and transmission constraints in primary data center corridors.",
+        "The purchase reflects a wider industry pivot toward self-generation as frontier lab training runs demand gigawatt-scale power allocations. While technology companies have previously emphasized zero-emission power purchase agreements, the urgency of securing immediate baseline electricity has driven developers to procure fossil-fueled generation units directly from industrial turbine suppliers."
+      ],
+      "sources": [
+        {
+          "label": "TechCrunch, Mon Nov 9, 2026",
+          "url": "https://techcrunch.com/2026/11/09/anthropic-joins-ais-natural-gas-frenzy-buys-3-4b-worth-of-turbines/"
+        }
+      ]
+    },
+    {
+      "slug": "google-expands-tpu-lineup-with-two-silicon-variants",
+      "category": "chips",
+      "tag": "",
+      "lead": false,
+      "title": "Google adds encrypted and dual-die variants to TPU 8 silicon family",
+      "dek": "Google has launched the TPU 8tx and TPU 8i Max, bringing its total custom accelerator rollouts to four specialized variants over the past year.",
+      "author": "Priya Nair",
+      "date": "2026-11-09",
+      "paragraphs": [
+        "Google has broadened its custom silicon portfolio with two specialized processors in the TPU 8 generation. The newly announced TPU 8tx incorporates hardware-level cryptographic isolation designed to process sensitive customer data entirely in encrypted memory spaces, while the TPU 8i Max mounts two processors on a unified package to double local computational throughput and available memory bandwidth.",
+        "The additions bring Google's internal processor introductions to four variants over a twelve-month span as cloud hyperscalers push to reduce their dependence on third-party hardware. Google Cloud now hosts nearly 100 enterprise customers deploying workloads on TPU hardware, positioning the proprietary accelerators as direct commercial competitors to Nvidia's accelerator platforms for both distributed training and high-volume inference."
+      ],
+      "sources": [
+        {
+          "label": "The Decoder, Mon Nov 9, 2026",
+          "url": "https://the-decoder.com/google-ships-four-tpu-variants-in-one-year-as-it-ramps-up-competition-with-nvidia/"
         }
       ]
     }

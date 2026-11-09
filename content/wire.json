@@ -1,11 +1,47 @@
 {
-  "updated": "2026-10-23",
+  "updated": "2026-11-09",
   "items": [
+    {
+      "date": "2026-11-09",
+      "text": "Meta launched Muse Ember, a lightweight model priced at 10 cents per million input tokens optimized for repetitive agent routing and tool calling.",
+      "url": "https://techcrunch.com/2026/11/09/meta-releases-muse-ember-a-new-lightweight-model-for-agent-execution/",
+      "live": true
+    },
+    {
+      "date": "2026-11-09",
+      "text": "The Walt Disney Company partnered with Adobe to build proprietary generative AI models supporting its theme parks, film productions, and cruise line.",
+      "url": "https://www.theverge.com/tech/1029773/disney-adobe-generative-ai-partnership",
+      "live": false
+    },
+    {
+      "date": "2026-11-09",
+      "text": "Bytedance released Seedream 5.5, an image generation model capable of retaining pixel stability across 100 iterations with native transparent background support.",
+      "url": "https://the-decoder.com/bytedances-seedream-5-5-promises-pixel-stable-image-editing-across-100-rounds-without-color-drift/",
+      "live": false
+    },
+    {
+      "date": "2026-11-09",
+      "text": "OpenAI published details on Control Room, an internal platform built to track and terminate computational model workloads when safety or security risks arise.",
+      "url": "https://openai.com/index/control-room",
+      "live": false
+    },
+    {
+      "date": "2026-11-09",
+      "text": "OpenAI listed ChatGPT Enterprise on the AWS Marketplace to permit business procurement through existing Amazon Web Services accounts.",
+      "url": "https://openai.com/index/chatgpt-enterprise-aws-marketplace",
+      "live": false
+    },
+    {
+      "date": "2026-11-09",
+      "text": "Apple updated Logic Pro with a $49.99 usage pack option to expand access to native Apple Intelligence creative features.",
+      "url": "https://www.theverge.com/tech/1030084/apple-intelligence-usage-packs-ai-features-creator-studio-logic-pro",
+      "live": false
+    },
     {
       "date": "2026-10-23",
       "text": "OpenAI is nearing completion of a funding round of up to $30 billion after lowering its target valuation.",
       "url": "https://the-decoder.com/openai-lowers-valuation-target-raises-up-to-30-billion/",
-      "live": true
+      "live": false
     },
     {
       "date": "2026-10-23",
