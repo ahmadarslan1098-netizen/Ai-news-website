@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-09",
+  "updated": "2026-11-15",
   "stories": [
     {
       "slug": "meta-muse-wonder",
@@ -885,6 +885,90 @@
         {
           "label": "The Decoder, Mon Nov 9, 2026",
           "url": "https://the-decoder.com/google-ships-four-tpu-variants-in-one-year-as-it-ramps-up-competition-with-nvidia/"
+        }
+      ]
+    },
+    {
+      "slug": "meituan-longcat-2-5-huawei-ascend",
+      "category": "models",
+      "tag": "",
+      "lead": false,
+      "title": "Meituan releases 1.6-trillion-parameter LongCat-2.5 agent model",
+      "dek": "The Chinese platform company published weights for a massive agent model trained entirely on domestic Huawei Ascend silicon without Nvidia hardware.",
+      "author": "Lena Fischer",
+      "date": "2026-11-15",
+      "paragraphs": [
+        "Meituan has released model weights for LongCat-2.5, a 1.6-trillion-parameter architecture engineered specifically to power autonomous software agents. According to disclosures from the Chinese technology company, the model was trained and deployed entirely without Nvidia silicon, relying instead on domestic Chinese semiconductors. A sample deployment cited in the release runs across a cluster of 194 Huawei Ascend processors, marking a significant domestic deployment for large-scale agent workloads.",
+        "The model achieved a score of 88.4 points on the Terminal Bench evaluation suite, positioning its command-line execution capability just behind Anthropic's Claude Opus 5. The release represents one of the largest disclosed agent architectures trained independently of Western semiconductor hardware, demonstrating competitive task performance on domestic Chinese accelerators amid escalating international restrictions on high-performance computing exports."
+      ],
+      "sources": [
+        {
+          "label": "The Decoder, Nov 15, 2026",
+          "url": "https://the-decoder.com/meituan-releases-a-1-6-trillion-parameter-agent-model-that-never-touched-an-nvidia-gpu/"
+        }
+      ]
+    },
+    {
+      "slug": "megaspeed-brokered-nvidia-china-orders",
+      "category": "industry",
+      "tag": "",
+      "lead": false,
+      "title": "Megaspeed brokered nearly $12 billion in Nvidia chip sales to China",
+      "dek": "A broker owned by former CEO Jensen Huang's ex-partner reportedly handled billions in mainland processor sales as analysts query official revenue figures.",
+      "author": "Dev Okafor",
+      "date": "2026-11-15",
+      "paragraphs": [
+        "Megaspeed, an entity owned by ousted Nvidia chief executive Jensen Huang's former partner Alice Huang, arranged nearly $12 billion in Nvidia chip orders for Chinese enterprises between 2024 and 2025, according to a report from The Wall Street Journal. The disclosures arrive as the semiconductor manufacturer faces escalating regulatory scrutiny and leadership turbulence following Huang's recent resignation from the company.",
+        "The scale of the transactions has intensified questions regarding Nvidia's reported commercial exposure to mainland China. Short-selling research firm Culper Research estimates that Nvidia's actual revenue share derived from China exceeds 20 percent, substantially above the 7 percent officially reported by the chipmaker. Lawmakers have cited the intermediary transactions in renewed calls to investigate whether broker networks bypassed federal export restrictions on advanced processors."
+      ],
+      "sources": [
+        {
+          "label": "The Decoder, Nov 15, 2026",
+          "url": "https://the-decoder.com/firm-linked-to-jensen-huangs-ex-lover-reportedly-brokered-nearly-12-billion-in-nvidia-chip-orders-for-china/"
+        }
+      ]
+    },
+    {
+      "slug": "runway-releases-praxis-1-robotics-model",
+      "category": "models",
+      "tag": "",
+      "lead": false,
+      "title": "Runway open-sources Praxis-1 video-to-robotics foundation model",
+      "dek": "The model transfers representations learned from video generation systems to physical robot control, releasing under an Apache 2.0 open-source license.",
+      "author": "Jonas Weber",
+      "date": "2026-11-14",
+      "paragraphs": [
+        "Runway has released the weights and source code for Praxis-1, an open-source robotics foundation model distributed under the permissive Apache 2.0 license. The system translates spatial and physical dynamics learned from pretraining on large-scale video corpora into direct motor control signals for robotic hardware, adapting techniques originally developed for visual synthesis directly into physical manipulation environments.",
+        "In benchmark evaluations, Praxis-1 captured the top position in the World Action Model category on Nvidia's RoboLab-120 testing suite. While the model establishes competitive performance in translating visual inputs into motor actions, Runway cautioned that the system cannot yet autonomously plan complex multi-stage action sequences, leaving long-horizon planning to external reasoning frameworks or human supervisors."
+      ],
+      "sources": [
+        {
+          "label": "The Decoder, Nov 14, 2026",
+          "url": "https://the-decoder.com/runways-open-source-praxis-1-turns-video-ai-into-a-robot-controller/"
+        }
+      ]
+    },
+    {
+      "slug": "openai-launches-chatgpt-wallet",
+      "category": "industry",
+      "tag": "",
+      "lead": false,
+      "title": "OpenAI introduces ChatGPT Wallet for autonomous agent transactions",
+      "dek": "The payments system enables automated purchasing across ChatGPT Work, Codex, and Dots with user approval and existing payment card protections.",
+      "author": "Priya Nair",
+      "date": "2026-11-13",
+      "paragraphs": [
+        "OpenAI has launched ChatGPT Wallet, an integrated payment feature that enables software agents across ChatGPT Work, Codex, and its Dots platform to execute automated purchases. The payment mechanism is designed to let agents finalize transactions while requiring explicit user approval before funds are spent, operating within existing fraud prevention and consumer protections offered by major credit card networks.",
+        "The service is rolling out initially to ChatGPT Pro subscribers in the United States who are aged 18 and older. OpenAI stated that the wallet integrates with eligible US-issued cards from American Express, Chase, Mastercard, and Visa, providing an operational framework for autonomous agents to complete end-to-end purchasing workflows without forcing users to navigate third-party checkout forms manually."
+      ],
+      "sources": [
+        {
+          "label": "OpenAI, Nov 13, 2026",
+          "url": "https://openai.com/index/introducing-chatgpt-wallet"
+        },
+        {
+          "label": "The Verge, Nov 13, 2026",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1033425/openai-chatgpt-wallet"
         }
       ]
     }

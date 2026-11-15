@@ -1,11 +1,47 @@
 {
-  "updated": "2026-11-09",
+  "updated": "2026-11-15",
   "items": [
+    {
+      "date": "2026-11-15",
+      "text": "The Reserve Bank of Australia reported that hiring and employment among workers aged 15 to 24 in software and customer service have fallen sharply relative to older cohorts since late 2022.",
+      "url": "https://the-decoder.com/australias-central-bank-finds-ai-hitting-young-workers-first-especially-in-software-and-customer-service/",
+      "live": true
+    },
+    {
+      "date": "2026-11-15",
+      "text": "Bipartisan members of Congress called for stricter export restrictions on advanced AI silicon and demanded testimony from former Nvidia chief Jensen Huang.",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1033984/congress-export-rules-ai-chips-china",
+      "live": false
+    },
+    {
+      "date": "2026-11-14",
+      "text": "OpenAI reassigned researchers from its dedicated robotics unit after general-purpose models including GPT-6 Astra demonstrated direct control over robotic systems.",
+      "url": "https://the-decoder.com/openai-reassigns-robotics-researchers-to-other-teams-as-general-purpose-models-might-make-specialized-robotics-ai-unnecessary/",
+      "live": false
+    },
+    {
+      "date": "2026-11-14",
+      "text": "Google's Gemini 4 Carbon and Anthropic's Fable 5.2 surpassed OpenAI's GPT-6.1 Sol on the MathArena benchmark, though both models require higher compute costs per task.",
+      "url": "https://the-decoder.com/gemini-4-carbon-takes-the-matharena-crown-but-costs-15-times-more-than-gpt-6-1-sol/",
+      "live": false
+    },
+    {
+      "date": "2026-11-13",
+      "text": "Agent framework provider LangChain reached a $3 billion valuation on reported adoption of 7,000 customers for its LangSmith management platform.",
+      "url": "https://techcrunch.com/2026/11/13/ai-agent-startup-langchain-hits-3b-valuation/",
+      "live": false
+    },
+    {
+      "date": "2026-11-12",
+      "text": "Google began rolling out Gemini 4 Hydrogen globally to its core search engine to generate visual and conversational responses.",
+      "url": "https://blog.google/products-and-platforms/products/search/gemini-4-hydrogen-search-upgrade/",
+      "live": false
+    },
     {
       "date": "2026-11-09",
       "text": "Meta launched Muse Ember, a lightweight model priced at 10 cents per million input tokens optimized for repetitive agent routing and tool calling.",
       "url": "https://techcrunch.com/2026/11/09/meta-releases-muse-ember-a-new-lightweight-model-for-agent-execution/",
-      "live": true
+      "live": false
     },
     {
       "date": "2026-11-09",
@@ -203,36 +239,6 @@
       "date": "2026-10-14",
       "text": "SentinelOne reported using OpenAI Daybreak to accelerate software malware investigations from weeks of manual review to hours.",
       "url": "https://openai.com/index/sentinelone/",
-      "live": false
-    },
-    {
-      "date": "2026-10-14",
-      "text": "Third Moment Research deployed 10,000 autonomous agents for 36-hour operational runs using OpenAI models including GPT-6 Astra and Daybreak.",
-      "url": "https://openai.com/index/third-moment-research/",
-      "live": false
-    },
-    {
-      "date": "2026-10-07",
-      "text": "Microsoft begins rolling out Copilot+ PCs built on Nvidia silicon with a revamped Windows 11.",
-      "url": "https://techcrunch.com/2026/10/07/microsoft-releases-new-nvidia-chip-ai-pcs-with-revamped-windows-11/",
-      "live": false
-    },
-    {
-      "date": "2026-10-06",
-      "text": "Atlassian and OpenAI expand their partnership.",
-      "url": "https://openai.com/news/",
-      "live": false
-    },
-    {
-      "date": "2026-10-06",
-      "text": "An OpenAI executive testifies before Australia's Joint Select Committee on AI, promised after the June breaches.",
-      "url": "https://www.bbc.co.uk/news/articles/cm5y5nynl75ko",
-      "live": false
-    },
-    {
-      "date": "2026-10-01",
-      "text": "Connecticut's AI responsibility and transparency act takes effect.",
-      "url": "https://www.hinshawlaw.com/en/insights/privacy-cyber-and-ai-decoded-alert/2026-ai-compliance-upcoming-laws-every-organization-needs-to-know",
       "live": false
     }
   ]
