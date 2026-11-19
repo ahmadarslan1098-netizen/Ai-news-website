@@ -1,11 +1,47 @@
 {
-  "updated": "2026-11-15",
+  "updated": "2026-11-19",
   "items": [
+    {
+      "date": "2026-11-19",
+      "text": "Google added computer use capabilities to its Gemini macOS application, enabling the model to navigate local desktop applications, files, and web pages.",
+      "url": "https://www.theverge.com/tech/1037902/google-gemini-macos-ai-computer-use",
+      "live": true
+    },
+    {
+      "date": "2026-11-19",
+      "text": "Jensen Huang resigned as Nvidia chief executive following an investigation into his personal relationship with an alleged Chinese spy.",
+      "url": "https://techcrunch.com/2026/11/19/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/",
+      "live": false
+    },
+    {
+      "date": "2026-11-19",
+      "text": "OpenAI rolled out Live Dictation in ChatGPT to stream real-time speech transcription across its web, desktop, and mobile platforms.",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1037634/openai-chatgpt-live-dictation",
+      "live": false
+    },
+    {
+      "date": "2026-11-19",
+      "text": "Canva introduced an administrative toggle that allows users to disable generative image editing tools and conversational AI assistants across its platform.",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1037126/canva-ai-features-off-button",
+      "live": false
+    },
+    {
+      "date": "2026-11-19",
+      "text": "Google launched a preview of Tool Retrieval in the Gemini API to let autonomous agents access hundreds of tools with lower token overhead.",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-api-tool-retrieval/",
+      "live": false
+    },
+    {
+      "date": "2026-11-18",
+      "text": "OpenAI reported using GPT-6 Astra to optimize integrated circuits for Jalapeño silicon and RISC-V processor designs.",
+      "url": "https://openai.com/index/advancing-chip-design-with-our-models",
+      "live": false
+    },
     {
       "date": "2026-11-15",
       "text": "The Reserve Bank of Australia reported that hiring and employment among workers aged 15 to 24 in software and customer service have fallen sharply relative to older cohorts since late 2022.",
       "url": "https://the-decoder.com/australias-central-bank-finds-ai-hitting-young-workers-first-especially-in-software-and-customer-service/",
-      "live": true
+      "live": false
     },
     {
       "date": "2026-11-15",
@@ -203,42 +239,6 @@
       "date": "2026-10-15",
       "text": "Amazon-owned Bee launched two wearable and pocket-sized recording devices starting at $74.99 that summarize audio and integrate with Alexa.",
       "url": "https://techcrunch.com/2026/10/15/amazons-bee-launches-two-new-personal-ai-devices-starting-at-75/",
-      "live": false
-    },
-    {
-      "date": "2026-10-15",
-      "text": "Google launched its Universal Cart shopping tool across Google Search and the Gemini application in the United States.",
-      "url": "https://techcrunch.com/2026/10/15/googles-universal-cart-shopping-tool-launches-in-the-us/",
-      "live": false
-    },
-    {
-      "date": "2026-10-15",
-      "text": "Rivian announced plans to integrate artificial intelligence agents into its vehicles, with additional details scheduled for an event in December.",
-      "url": "https://techcrunch.com/2026/10/15/ai-agents-are-coming-to-rivians-cars/",
-      "live": false
-    },
-    {
-      "date": "2026-10-15",
-      "text": "Amazon devices chief Panos Panay predicted ambient artificial intelligence hardware will operate in the background to replace traditional mobile applications.",
-      "url": "https://techcrunch.com/2026/10/15/amazon-devices-chief-panos-panay-sees-a-future-where-ai-devices-replace-the-need-to-use-apps/",
-      "live": false
-    },
-    {
-      "date": "2026-10-14",
-      "text": "The Information reports Anthropic's slowing growth could weigh on its IPO valuation.",
-      "url": "https://www.theinformation.com/",
-      "live": false
-    },
-    {
-      "date": "2026-10-14",
-      "text": "OpenAI published an analysis detailing the adoption and operational expansion of agentic software systems among enterprises in the European Union.",
-      "url": "https://openai.com/index/the-eus-next-chapter-in-ai-is-agentic/",
-      "live": false
-    },
-    {
-      "date": "2026-10-14",
-      "text": "SentinelOne reported using OpenAI Daybreak to accelerate software malware investigations from weeks of manual review to hours.",
-      "url": "https://openai.com/index/sentinelone/",
       "live": false
     }
   ]
